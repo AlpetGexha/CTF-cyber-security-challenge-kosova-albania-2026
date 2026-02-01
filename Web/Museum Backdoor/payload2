@@ -1,0 +1,36 @@
+POST /cdn-cgi/rum? HTTP/2
+Host: mnbvcxzasdfghj-csc26.cybersecuritychallenge.al
+Content-Length: 1727
+Sec-Ch-Ua-Platform: "Windows"
+Accept-Language: en-US,en;q=0.9
+Sec-Ch-Ua: "Chromium";v="141", "Not?A_Brand";v="8"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Accept: */*
+Origin: https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al/products
+Accept-Encoding: gzip, deflate, br
+Priority: u=1, i
+
+{"memory":{"totalJSHeapSize":15954871,"usedJSHeapSize":11986579,"jsHeapSizeLimit":4294705152},"resources":[],"referrer":"","eventType":1,"firstPaint":148,"firstContentfulPaint":148,"startTime":1769782176960.9,"versions":{"fl":"2024.11.0","js":"2024.6.1","timings":2},"pageloadId":"ce0ded11-037e-4cad-9508-8787f009c2fb","location":"https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al/products","nt":"reload","timingsV2":{"unloadEventStart":85.69999999925494,"unloadEventEnd":85.69999999925494,"domInteractive":128.69999999925494,"domContentLoadedEventStart":501.8999999985099,"domContentLoadedEventEnd":501.8999999985099,"domComplete":502,"loadEventStart":502,"loadEventEnd":502.0999999977648,"type":"reload","redirectCount":0,"criticalCHRestart":0,"activationStart":0,"initiatorType":"navigation","nextHopProtocol":"h2","deliveryType":"","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":0.6999999992549419,"domainLookupStart":0.6999999992549419,"domainLookupEnd":0.6999999992549419,"connectStart":0.6999999992549419,"connectEnd":0.6999999992549419,"secureConnectionStart":0.6999999992549419,"requestStart":4.099999997764826,"responseStart":82.09999999776483,"responseEnd":82.59999999776483,"transferSize":6696,"encodedBodySize":6396,"decodedBodySize":6396,"responseStatus":200,"finalResponseHeadersStart":82.09999999776483,"firstInterimResponseStart":0,"workerRouterEvaluationStart":0,"workerCacheLookupStart":0,"workerMatchedSourceType":"","workerFinalSourceType":"","renderBlockingStatus":"non-blocking","name":"https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al/products","entryType":"navigation","startTime":0,"duration":502.0999999977648},"dt":"","siteToken":"7fc663ae2bd94e84b174df987162e8f3","st":2}
+
+RESPONSE
+
+HTTP/2 204 No Content
+Date: Fri, 30 Jan 2026 14:22:23 GMT
+Content-Type: text/plain
+Access-Control-Allow-Origin: https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al
+Access-Control-Allow-Methods: POST,OPTIONS
+Access-Control-Max-Age: 86400
+Vary: Origin, accept-encoding
+Access-Control-Allow-Credentials: true
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4BMeFYoVP8tdx8i7jKE3GicVRCO6aiSeorurmNO42X6jn64A3GaBPRrVj%2Bo0O%2BmJCMgojnrRIWb8EwJIKqErukmU50h0Ok0PtO2lvc%2F7YvZBaMjDDZMxPAyR5LYxawA8Xaqvw9wSJHKYOXw6"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+Cf-Ray: 9c619f07f8c5d100-SOF
+Alt-Svc: h3=":443"; ma=86400
+

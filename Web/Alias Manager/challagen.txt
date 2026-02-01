@@ -1,0 +1,36 @@
+Alias Manager
+150
+A private file storage service is under development, but something seems off with its configuration. Can you retrieve the flag.txt file hidden outside the intended directory? Sometimes, what you see isn't the full picture...
+
+https://qwertyuiopas-csc26.cybersecuritychallenge.al
+
+
+
+https://qwertyuiopas-csc26.cybersecuritychallenge.al/files/
+
+../
+example.txt                                        08-Mar-2025 23:40                  28
+nginx.conf                                         08-Mar-2025 23:40                 304
+
+
+worker_processes 1;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    server {
+        listen 80;
+
+        location / {
+            root /var/www/html;
+            index index.html;
+        }
+
+        location /files {
+            alias /var/www/uploads/;
+            autoindex on;
+        }
+    }
+}

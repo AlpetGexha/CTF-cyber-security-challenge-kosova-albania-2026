@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[user]
+	name = Arben Dev
+	email = arben.shala@pretera.com
+[remote "origin"]
+	url = git@github.com:arbenshala/SecretForge.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[pull]
+	rebase = false
+[branch "main"]
+	vscode-merge-base = origin/master
+	vscode-merge-base = origin/master

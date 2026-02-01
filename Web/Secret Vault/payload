@@ -1,0 +1,19 @@
+POST /login HTTP/2
+Host: asdfghjklzxcv-csc26.cybersecuritychallenge.al
+Content-Length: 43
+Sec-Ch-Ua-Platform: "Windows"
+Accept-Language: en-US,en;q=0.9
+Sec-Ch-Ua: "Chromium";v="141", "Not?A_Brand";v="8"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Accept: */*
+Origin: https://asdfghjklzxcv-csc26.cybersecuritychallenge.al
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://asdfghjklzxcv-csc26.cybersecuritychallenge.al/
+Accept-Encoding: gzip, deflate, br
+Priority: u=1, i
+
+{"email":"test@test.com","password":"test"}

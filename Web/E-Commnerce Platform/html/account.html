@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>ONLINE_STORE.SYS | Account</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      * {
+        font-family: 'Courier New', monospace !important;
+      }
+      body {
+        background: #000 !important;
+        color: #00ff00 !important;
+      }
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(0deg, rgba(0, 255, 0, 0.03) 0px, rgba(0, 255, 0, 0.03) 1px, transparent 1px, transparent 2px);
+        pointer-events: none;
+        z-index: 1;
+      }
+      .d-flex {
+        background: #0a0a0a !important;
+        border-bottom: 3px solid #00ff00 !important;
+        box-shadow: 0 0 20px #00ff00 !important;
+      }
+      h5, h1, a {
+        color: #00ff00 !important;
+        text-shadow: 0 0 5px #00ff00 !important;
+      }
+      .card {
+        background: #0a0a0a !important;
+        border: 2px solid #00ff00 !important;
+        color: #00ff00 !important;
+      }
+      .btn {
+        background: #000 !important;
+        border: 2px solid #00ff00 !important;
+        color: #00ff00 !important;
+      }
+      .btn:hover {
+        background: rgba(0, 255, 0, 0.2) !important;
+        box-shadow: 0 0 10px #00ff00 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">The Online Store</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="/" title="Home">Home</a>
+        
+          <a class="p-2 text-dark" href="/account">Account</a>
+          <a class="p-2 text-dark" href="/logout">Logout</a>
+        
+      </nav>
+    </div>
+    <div class="container">
+      
+  <h1 class="text-center">Account</h1>
+  <div class="row">
+    <div class="col-sm-6 offset-sm-3">
+      <p>Welcome to your account, <code>Administrator</code>. On this section you can change your account details.</p>
+      
+      <div class="alert alert-success">CSC26{3_c0mm3rc3_pl4tf0rm}</div>
+      
+      <form id="save" method="post" action="/account">
+        
+        <div class="form-outline mb-4">
+          <input type="text" id="name" name="name" class="form-control" />
+          <label class="form-label" for="name">Name</label>
+        </div>
+        <div class="form-outline mb-4">
+          <input type="text" id="username" name="username" class="form-control" disabled />
+          <label class="form-label" for="username">Username</label>
+        </div>
+        <div class="form-outline mb-4">
+          <input type="password" id="password" name="password" class="form-control" placeholder="(leave blank if you want to keep your old password)" />
+          <label class="form-label" for="password">New Password</label>
+        </div>
+        <div class="form-outline mb-4">
+          <input type="password" id="currentpassword" name="currentpassword" class="form-control" required />
+          <div class="form-group required">
+          <label class="control-label" for="currentpassword">Current Password</label>
+        </div>
+        </div>
+        <button type="submit" form="save" class="btn btn-primary btn-block mb-4">Save</button>
+      </form>
+      <form id="delete" method="post" action="/account/delete">
+        <button type="submit" form="delete" class="btn btn-danger btn-block mb-4" onclick="return confirm('Are you sure you want to delete your account?');">Delete account</button>
+      </form>
+    </div>
+  </div>
+
+    </div>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"7fc663ae2bd94e84b174df987162e8f3","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

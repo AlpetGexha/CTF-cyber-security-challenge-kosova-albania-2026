@@ -1,0 +1,61 @@
+POST /submit.php HTTP/2
+Host: qwertyuioplkjh-csc26.cybersecuritychallenge.al
+Content-Length: 447
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="141", "Not?A_Brand";v="8"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Accept-Language: en-US,en;q=0.9
+Origin: https://qwertyuioplkjh-csc26.cybersecuritychallenge.al
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWkuNT6Wcs6LRuMob
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://qwertyuioplkjh-csc26.cybersecuritychallenge.al/careers.php
+Accept-Encoding: gzip, deflate, br
+Priority: u=0, i
+
+------WebKitFormBoundaryWkuNT6Wcs6LRuMob
+Content-Disposition: form-data; name="create_xml"
+
+true
+------WebKitFormBoundaryWkuNT6Wcs6LRuMob
+Content-Disposition: form-data; name="name"
+
+Alpet
+------WebKitFormBoundaryWkuNT6Wcs6LRuMob
+Content-Disposition: form-data; name="email"
+
+agexha@gmail.com
+------WebKitFormBoundaryWkuNT6Wcs6LRuMob
+Content-Disposition: form-data; name="bio"
+
+Alpet123
+------WebKitFormBoundaryWkuNT6Wcs6LRuMob--
+
+
+
+
+Reposnse:
+
+HTTP/2 200 OK
+Date: Fri, 30 Jan 2026 14:53:54 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+X-Powered-By: PHP/7.2.34
+Vary: Accept-Encoding
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uPTtGProVcupT%2B3sRbtyayEDaXk%2BkLdaNOB4c%2Fduvvy10JO76T1kKTRWL14BLTECooRx1Xzwaem%2Fsur9yh2Cmo3FZTqkDzxrGqyW8Gz%2B5nyporPes1Eb%2BDq5sUnKp%2BGZlyWOOdLVjsSD%2BtPR"}]}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=15,cfOrigin;dur=31
+Cf-Ray: 9c61cd2d895dd0f8-SOF
+Alt-Svc: h3=":443"; ma=86400
+
+<br />
+<b>Warning</b>:  simplexml_import_dom(): Invalid Nodetype to import in <b>/var/www/html/submit.php</b> on line <b>13</b><br />
+Thank you for applying. You will hear from us soon!

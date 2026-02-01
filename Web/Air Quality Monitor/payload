@@ -1,0 +1,23 @@
+POST /updateProfile HTTP/2
+Host: qwertyuioplk-csc26.cybersecuritychallenge.al
+Cookie: auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFscGV0RyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzY5NzY3MDc2LCJleHAiOjE3Njk3NzA2NzZ9.9a9Ccd1RVgoofmruqXgebE2nlYYdLDdEOU6wNHco9gI
+Content-Length: 8
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="141", "Not?A_Brand";v="8"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Accept-Language: en-US,en;q=0.9
+Origin: https://qwertyuioplk-csc26.cybersecuritychallenge.al
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://qwertyuioplk-csc26.cybersecuritychallenge.al/dashboard
+Accept-Encoding: gzip, deflate, br
+Priority: u=0, i
+
+bio=test

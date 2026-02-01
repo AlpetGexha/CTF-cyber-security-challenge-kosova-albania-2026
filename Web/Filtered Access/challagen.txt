@@ -1,0 +1,34 @@
+Filtered Access
+
+The system seems incomplete, with missing pages and unexpected errors.
+
+
+🔒 Security Insights
+Home
+Write-Ups
+About
+> FILTERED_ACCESS.BLOG
+>>> FEBRUARY 27, 2025 | BY SECURITY TEAM
+>>> OVERVIEW
+>>> THIS POST WALKS THROUGH THE FILTERED ACCESS CTF CHALLENGE.
+
+>>> IT'S A WEB-BASED SECURITY CHALLENGE DESIGNED TO TEST YOUR ABILITY TO BYPASS FILTERS AND ACCESS PROTECTED SECRETS.
+
+>>> BELOW, I'LL OUTLINE THE STEPS TO UNCOVER THE VULNERABILITIES AND CAPTURE THE FLAG.
+
+Solution Steps
+Initial Recon
+Started by [e.g., examining the webpage source code]. Noticed [initial observation, e.g., a login form with no visible validation].
+Vulnerability Discovery
+[Placeholder for your vulnerabilities. Describe what you found, e.g., an unprotected endpoint or misconfigured input field.]
+Exploitation
+[Placeholder for exploitation steps. Explain how you exploited the vulnerabilities, e.g., crafted a payload or bypassed authentication.]
+Capturing the Flag
+After [final step, e.g., gaining access to the admin panel], the flag was revealed: [e.g., FLAG{example_flag_here}].
+Conclusion
+This challenge was a great exercise in [e.g., identifying common web vulnerabilities]. Key takeaways include [e.g., the importance of input sanitization]. Stay tuned for more write-ups!
+
+« Previous Next »
+© 2026 [Your Blog Name]. All rights reserved.
+
+
