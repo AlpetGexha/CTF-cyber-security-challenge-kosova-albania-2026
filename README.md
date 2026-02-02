@@ -48,6 +48,6 @@
   - [BonBon](./Forensics%20&%20Steganography/bonbon/README.md) (150 pts)
   - [Passwordcracker](./Forensics%20&%20Steganography/Passwordcracker/README.md)
 
-![Team](./screenshots/team.png)
+![Team](screenshots/team.png)
 
-![Leaderboard](./screenshots/leadeboard.png)
+![Leaderboard](screenshots/leadeboard.png)
