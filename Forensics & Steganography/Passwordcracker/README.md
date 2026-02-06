@@ -10,4 +10,4 @@ XOR value: 85
 
 # Soulution 
 
-No Luck findin :(
+No Luck finding :(
