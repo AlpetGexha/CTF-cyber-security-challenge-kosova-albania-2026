@@ -112,13 +112,6 @@ if (isset($_POST['create_xml'])) {
 }
 ```
 
-### Why Blind XXE?
-
-The application processes the XML and resolves external entities, but:
-
-- No XML content is reflected in the response
-- No error messages include entity content
-- The parsed data is likely stored or processed internally
 
 ## Flag
 
